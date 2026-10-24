@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ================================================================== -->
+    <!-- MASTER PRIMARY COLORS (Core Surfaces, Headers & Brand Identity)    -->
+    <!-- ================================================================== -->
+    <color name="p01_obsidian_void">#0B0F0E</color>
+    <color name="p02_pine_shadow">#131B18</color>
+    <color name="p03_alabaster_mist">#F4F7F5</color>
+    <color name="p04_frost_slate">#FFFFFF</color>
+    <color name="p05_deep_midnight_slate">#0D1117</color>
+    <color name="p06_obsidian_navy">#161B22</color>
+    <color name="p07_warm_parchment">#F8F6F0</color>
+    <color name="p08_ivory_stone">#FFFFFF</color>
+
+    <!-- ================================================================== -->
+    <!-- MASTER SECONDARY COLORS (Accents, Controls, Borders & D_V Badges)  -->
+    <!-- ================================================================== -->
+    <color name="s01_emerald_illusion">#10B981</color>
+    <color name="s02_deep_viridian">#059669</color>
+    <color name="s03_trickster_gold">#D4AF37</color>
+    <color name="s04_burnished_amber">#B45309</color>
+    <color name="s05_subtle_border_dark">#23312C</color>
+    <color name="s06_subtle_border_light">#DCE4E0</color>
+
+    <!-- ================================================================== -->
+    <!-- MASTER TYPOGRAPHY / FONT COLORS                                    -->
+    <!-- ================================================================== -->
+    <color name="fc01_crisp_frost_white">#ECFDF5</color>
+    <color name="fc02_muted_sage_gray">#9CA3AF</color>
+    <color name="fc03_charcoal_ink">#111827</color>
+    <color name="fc04_slate_gray">#4B5563</color>
+    <color name="fc05_accent_contrast_dark">#06281E</color>
+    <color name="fc06_pure_white">#FFFFFF</color>
+
+    <!-- ================================================================== -->
+    <!-- SEMANTIC ACTION & SYSTEM COLORS                                    -->
+    <!-- ================================================================== -->
+    <color name="duplexa_danger_red">#EF4444</color>
+    <color name="duplexa_scrim_dark">#B3000000</color>
+</resources>

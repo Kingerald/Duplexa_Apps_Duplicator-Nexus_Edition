@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ================================================================== -->
+    <!-- THEME 1 (MAIN & PRIMARY THEME) — NIGHT DISPLAY MODE (DEFAULT)      -->
+    <!-- ================================================================== -->
+    <style name="Theme.Duplexa.Theme1.Night" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/s01_emerald_illusion</item>
+        <item name="colorPrimaryVariant">@color/s02_deep_viridian</item>
+        <item name="colorSecondary">@color/s03_trickster_gold</item>
+        <item name="android:windowBackground">@color/p01_obsidian_void</item>
+        <item name="android:statusBarColor">@color/p01_obsidian_void</item>
+        <item name="android:navigationBarColor">@color/p01_obsidian_void</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Semantic Duplexa Theme Attributes -->
+        <item name="duplexaBackgroundPrimary">@color/p01_obsidian_void</item>
+        <item name="duplexaSurfaceCard">@color/p02_pine_shadow</item>
+        <item name="duplexaAccentPrimary">@color/s01_emerald_illusion</item>
+        <item name="duplexaAccentSecondary">@color/s03_trickster_gold</item>
+        <item name="duplexaBorderColor">@color/s05_subtle_border_dark</item>
+        <item name="duplexaTextPrimary">@color/fc01_crisp_frost_white</item>
+        <item name="duplexaTextSecondary">@color/fc02_muted_sage_gray</item>
+        <item name="duplexaBadgeTextColor">@color/fc05_accent_contrast_dark</item>
+    </style>
+
+    <!-- ================================================================== -->
+    <!-- THEME 1 (MAIN & PRIMARY THEME) — DAY DISPLAY MODE                  -->
+    <!-- ================================================================== -->
+    <style name="Theme.Duplexa.Theme1.Day" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/s02_deep_viridian</item>
+        <item name="colorPrimaryVariant">@color/s01_emerald_illusion</item>
+        <item name="colorSecondary">@color/s04_burnished_amber</item>
+        <item name="android:windowBackground">@color/p03_alabaster_mist</item>
+        <item name="android:statusBarColor">@color/p03_alabaster_mist</item>
+        <item name="android:navigationBarColor">@color/p03_alabaster_mist</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Semantic Duplexa Theme Attributes -->
+        <item name="duplexaBackgroundPrimary">@color/p03_alabaster_mist</item>
+        <item name="duplexaSurfaceCard">@color/p04_frost_slate</item>
+        <item name="duplexaAccentPrimary">@color/s02_deep_viridian</item>
+        <item name="duplexaAccentSecondary">@color/s04_burnished_amber</item>
+        <item name="duplexaBorderColor">@color/s06_subtle_border_light</item>
+        <item name="duplexaTextPrimary">@color/fc03_charcoal_ink</item>
+        <item name="duplexaTextSecondary">@color/fc04_slate_gray</item>
+        <item name="duplexaBadgeTextColor">@color/fc06_pure_white</item>
+    </style>
+
+    <!-- ================================================================== -->
+    <!-- THEME 2 (SECONDARY DISPLAY THEME) — NIGHT DISPLAY MODE             -->
+    <!-- ================================================================== -->
+    <style name="Theme.Duplexa.Theme2.Night" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/s03_trickster_gold</item>
+        <item name="colorPrimaryVariant">@color/s04_burnished_amber</item>
+        <item name="colorSecondary">@color/s01_emerald_illusion</item>
+        <item name="android:windowBackground">@color/p05_deep_midnight_slate</item>
+        <item name="android:statusBarColor">@color/p05_deep_midnight_slate</item>
+        <item name="android:navigationBarColor">@color/p05_deep_midnight_slate</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Semantic Duplexa Theme Attributes -->
+        <item name="duplexaBackgroundPrimary">@color/p05_deep_midnight_slate</item>
+        <item name="duplexaSurfaceCard">@color/p06_obsidian_navy</item>
+        <item name="duplexaAccentPrimary">@color/s03_trickster_gold</item>
+        <item name="duplexaAccentSecondary">@color/s01_emerald_illusion</item>
+        <item name="duplexaBorderColor">@color/s05_subtle_border_dark</item>
+        <item name="duplexaTextPrimary">@color/fc01_crisp_frost_white</item>
+        <item name="duplexaTextSecondary">@color/fc02_muted_sage_gray</item>
+        <item name="duplexaBadgeTextColor">@color/fc05_accent_contrast_dark</item>
+    </style>
+
+    <!-- ================================================================== -->
+    <!-- THEME 2 (SECONDARY DISPLAY THEME) — DAY DISPLAY MODE               -->
+    <!-- ================================================================== -->
+    <style name="Theme.Duplexa.Theme2.Day" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/s04_burnished_amber</item>
+        <item name="colorPrimaryVariant">@color/s03_trickster_gold</item>
+        <item name="colorSecondary">@color/s02_deep_viridian</item>
+        <item name="android:windowBackground">@color/p07_warm_parchment</item>
+        <item name="android:statusBarColor">@color/p07_warm_parchment</item>
+        <item name="android:navigationBarColor">@color/p07_warm_parchment</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Semantic Duplexa Theme Attributes -->
+        <item name="duplexaBackgroundPrimary">@color/p07_warm_parchment</item>
+        <item name="duplexaSurfaceCard">@color/p08_ivory_stone</item>
+        <item name="duplexaAccentPrimary">@color/s04_burnished_amber</item>
+        <item name="duplexaAccentSecondary">@color/s02_deep_viridian</item>
+        <item name="duplexaBorderColor">@color/s06_subtle_border_light</item>
+        <item name="duplexaTextPrimary">@color/fc03_charcoal_ink</item>
+        <item name="duplexaTextSecondary">@color/fc04_slate_gray</item>
+        <item name="duplexaBadgeTextColor">@color/fc06_pure_white</item>
+    </style>
+
+    <!-- ================================================================== -->
+    <!-- SPLASH & FULL-SCREEN STANDALONE SANDBOX THEMES                     -->
+    <!-- ================================================================== -->
+    <style name="Theme.Duplexa.Splash" parent="Theme.Duplexa.Theme1.Night">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Duplexa.FullScreenSandbox" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/p01_obsidian_void</item>
+    </style>
+
+</resources>

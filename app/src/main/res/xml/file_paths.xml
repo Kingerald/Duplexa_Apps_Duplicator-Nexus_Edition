@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal APK Vault where signed standalone D_V# APKs are stored -->
+    <files-path
+        name="duplicated_apks"
+        path="duplicated_apks/" />
+
+    <!-- Internal Root Files fallback -->
+    <files-path
+        name="internal_files"
+        path="." />
+
+    <!-- Temporary APK Patching & Signing Staging Directory -->
+    <cache-path
+        name="apk_staging"
+        path="apk_staging/" />
+
+    <!-- Public Downloads export path for user-accessible standalone APKs -->
+    <external-path
+        name="downloads_export"
+        path="Download/Duplexa_APKs/" />
+</paths>

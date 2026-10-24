@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic Dual-Theme Attributes for Duplexa Apps Duplicator - Nexus Edition -->
+    <attr name="duplexaBackgroundPrimary" format="color" />
+    <attr name="duplexaSurfaceCard" format="color" />
+    <attr name="duplexaAccentPrimary" format="color" />
+    <attr name="duplexaAccentSecondary" format="color" />
+    <attr name="duplexaBorderColor" format="color" />
+    <attr name="duplexaTextPrimary" format="color" />
+    <attr name="duplexaTextSecondary" format="color" />
+    <attr name="duplexaBadgeTextColor" format="color" />
+</resources>

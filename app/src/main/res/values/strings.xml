@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application Identity & Biodata -->
+    <string name="app_name">Duplexa</string>
+    <string name="app_full_title">Duplexa Apps Duplicator</string>
+    <string name="app_edition_badge">NEXUS EDITION</string>
+    <string name="app_version_tag">v1.0.0-Nexus</string>
+    <string name="app_tagline">Loki Vessel Engine • Native Standalone APK Duplicator</string>
+
+    <!-- Splash / Bootup Screen -->
+    <string name="splash_initializing_engine">Initializing Native Vessel Engine…</string>
+    <string name="splash_verifying_vault">Verifying Standalone APK Vault…</string>
+
+    <!-- Duplication Version (D_V) Naming Convention -->
+    <string name="dv_badge_format">D_V%1$d</string>
+    <string name="dv_app_display_format">%1$s D_V%2$d</string>
+    <string name="dv_next_instance_preview">Next Instance: D_V%1$d</string>
+
+    <!-- Dashboard & App Library Navigation -->
+    <string name="tab_duplicated_library">Duplicated Library</string>
+    <string name="tab_select_app_to_duplicate">Duplicate New App</string>
+    <string name="search_library_hint">Search duplicated D_V apps…</string>
+    <string name="search_installed_hint">Search installed device apps…</string>
+    <string name="empty_library_title">No Duplicated Apps Yet</string>
+    <string name="empty_library_subtitle">Select any installed application to forge an isolated standalone D_V1 APK replica.</string>
+    <string name="btn_create_first_duplicate">Duplicate an App</string>
+
+    <!-- Cloned App 3-Option Context Menu (Open, Install / Download, Delete) -->
+    <string name="menu_title_duplicate_actions">%1$s (%2$s)</string>
+    <string name="action_open_duplicate">Open</string>
+    <string name="action_open_duplicate_desc">Launch standalone full-screen native instance</string>
+    <string name="action_install_or_download_apk">Install / Download APK</string>
+    <string name="action_install_or_download_apk_desc">Install via system/app chooser or save standalone APK to Downloads</string>
+    <string name="action_delete_duplicate">Delete</string>
+    <string name="action_delete_duplicate_desc">Remove from Duplexa library and wipe generated D_V package</string>
+
+    <!-- Install / Download Sub-Options & System Chooser Strings -->
+    <string name="dialog_install_download_title">Install or Export %1$s</string>
+    <string name="option_chooser_install">Open with Package Installer / App Chooser</string>
+    <string name="option_export_downloads">Download Standalone APK to Device Storage</string>
+    <string name="chooser_install_apk_prompt">Install or handle %1$s APK using:</string>
+    <string name="toast_apk_exported_success">Saved standalone APK to Downloads/Duplexa_APKs/%1$s</string>
+
+    <!-- Duplication Progress & Status Feedback -->
+    <string name="status_duplicating_title">Forging %1$s D_V%2$d…</string>
+    <string name="status_step_extracting">Extracting base Android package…</string>
+    <string name="status_step_patching">Binding D_V%1$d package identity &amp; icon badge…</string>
+    <string name="status_step_signing">Signing standalone APK (V1/V2 Cryptographic Seal)…</string>
+    <string name="toast_duplicate_created">%1$s created in Duplexa Library!</string>
+    <string name="toast_duplicate_deleted">%1$s removed from Duplexa Library.</string>
+
+    <!-- Theme & Display Mode Controls -->
+    <string name="theme_selector_title">Appearance &amp; Theme</string>
+    <string name="theme_option_primary">Theme 1 (Obsidian &amp; Emerald)</string>
+    <string name="theme_option_secondary">Theme 2 (Midnight &amp; Trickster Gold)</string>
+    <string name="mode_option_night">Night Display</string>
+    <string name="mode_option_day">Day Display</string>
+</resources>

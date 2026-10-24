@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lightweight Placeholder for ic_empty_vessels.png (To be replaced when PNG is uploaded) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M24,28 L60,28 L60,72 L24,72 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#9CA3AF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M36,20 L72,20 L72,64 L36,64 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#10B981" />
+</vector>
